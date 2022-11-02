@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+header{
+width: 80%;
+margin: 0 auto;
+height: 20%;
+}
+
+.logo img{
+  width: 10%;
+}
+
+.button button{
+  background-color: black;
+  color: white;
+  padding:10px 20px;
+}
+
+main{
+
+  background-color: rgb(127, 255, 213);
+  height: 70%; 
+
+}
+
+#grid-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.square {
+  width: calc(100% / 10);
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
+
+.square-100 {
+  width: calc(100% / 8);
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  
+}
+
+.bomb {
+  background-color: brown;
+}
+.blue {
+  background-color: blue;
+}
+
+
+
+
+footer{
+ 
+  width: 80%;
+margin: 0 auto;
+  height: 10%;
+}
